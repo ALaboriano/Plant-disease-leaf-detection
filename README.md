@@ -14,16 +14,15 @@ El formato del dataset utilizado es ``YOLO v7 PyTorch`` y la dimensión escogida
 
 El dataset descargado solamente contiene subdatasets de ``train`` y ``test``; por lo que a ``train`` se lo dividió en dos subdatasets, uno con data para que el modelo aprenda ``train`` (contiene el 90% de datos) y el otro llamado ``valid`` (contiene el 10% de los datos).
 
+La distribución de imágenes en el dataset final empleado, quedó de la siguiente manera: 1,409 imágenes en el dataset de entrenamiento, 145 imágenes en el dataset de validación y 148 imágenes en el dataset de test.
+
+![Fig 2. Preparación de la data](https://user-images.githubusercontent.com/52020337/208259463-e307af60-f31b-4993-abb2-ed6de3cb9fd3.JPG)
+
 Como el objetivo es solamente trabajar con hojas que contengan alguna enfermedad, solamente se conservó aquellas imágenes y etiquetas de plantas que efectivamente presenten alguna enfermedad en sus hojas, es así que del dataset original con 30 clases, se pasó a un dataset de experimentación final con 17 clases.
+
+La distribución relativa de las 17 clases, es similar en los tres datasets construidos. En la figura 3 se observa que para el entrenamiento no se contó con la misma cantidad de imágenes por clase, lo cual se ve reflejado en el entrenamiento del modelo, el cual suele aprender a generalizar mejor mientras más dataos para aprender tenga.
+
+![Fig 3. Número de imágenes por clase](https://user-images.githubusercontent.com/52020337/208259540-5a377565-f3c4-4b39-9e9d-3b27bc150a5e.JPG)
 
 ## Metodología.
 De las principales técnicas que existe para solucionar tareas de detección de objetos, en este caso se ha seleccionado You Only Look Once en su versión más  reciente [YOLOv7](https://arxiv.org/abs/2207.02696).
-
-
-
-La distribución de imágenes en el dataset final empleado, quedó de la siguiente manera: 1,409 imágenes en el dataset de entrenamiento, 145 imágenes en el dataset de validación y 148 imágenes en el dataset de test.
-
-La distribución relativa de las 17 clases, es similar en los tres datasets construidos. En la figura 2 se observa que para el entrenamiento no se contó con la misma cantidad de imágenes por clase, lo cual se ve reflejado en el entrenamiento del modelo, el cual suele aprender a generalizar mejor mientras más dataos para aprender tenga.
-
-![Número de imágenes por clase](https://user-images.githubusercontent.com/52020337/208254400-18495cfb-7a4b-4fbe-b8ab-4e49f2cec595.JPG)
-
