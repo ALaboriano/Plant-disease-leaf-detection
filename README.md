@@ -4,7 +4,7 @@
 Utilizamos YOLOv7, el cual es una técnica de Visión Computacional especializadas en la detección de objetos, para construir un sistema que detecte las principales enfermedades que afectan a las hojas de diferentes plantas agrícolas.
 
 **Resumen de los resultados obtenidos**
-[![Mira el video](http://img.youtube.com/vi/i5McKAcqqSXiqwUz/0.jpg)](http://www.youtube.com/watch?v=i5McKAcqqSXiqwUz)
+([http://www.youtube.com/watch?v=i5McKAcqqSXiqwUz](https://youtu.be/Uh2y80x36rI?si=i5McKAcqqSXiqwUz))
 
 ## Fuente de datos - Dataset
 
