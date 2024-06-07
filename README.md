@@ -3,7 +3,9 @@
 ## Descripción
 Utilizamos YOLOv7, el cual es una técnica de Visión Computacional especializadas en la detección de objetos, de manera que se pueda construir un sistema de detección de enfermedades que afectan a las hojas de diferentes plantas agrícolas.
 
-[![Mira los resultados en este video](https://youtu.be/Uh2y80x36rI?si=so9KvOOuGAyXzN3f)
+[![Mira el video](https://github.com/ALaboriano/Plant-disease-leaf-detection/assets/52020337/b28edf87-a0b0-4de4-9680-c0725162fb93)
+)]([http://www.youtube.com/watch?v=VIDEO_ID](https://youtu.be/Uh2y80x36rI?si=58Peju2Vhv-ZVR32))
+
 ## Fuente de datos - Dataset
 
 Todos los experimentos se realizaron utilizando el dataset publico PlantDoc, el cual fue publicado en 2019 por investigadores del Instituto Indio de Tecnología, este conjunto de datos contiene un total de 2,598 imágenes de 13 especies de plantas y 17 clases de enfermedades. Para mayor detalle puede consultar el paper original titulado [PlantDoc: A Dataset for Visual Plant Disease Detection](https://arxiv.org/pdf/1911.10317.pdf), y para descargar el dataset en cualquiera de los formatos de la Fig 1. consultar en [PlantDoc Dataset  resize-416x416](https://public.roboflow.com/object-detection/plantdoc).
