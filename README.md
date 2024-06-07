@@ -1,10 +1,11 @@
 # Detección de enfermedades en las hojas de plantas agrícolas 
 
 ## Descripción
-Utilizamos YOLOv7, el cual es una técnica de Visión Computacional especializadas en la detección de objetos, de manera que se pueda construir un sistema de detección de enfermedades que afectan a las hojas de diferentes plantas agrícolas.
+Utilizamos YOLOv7, el cual es una técnica de Visión Computacional especializadas en la detección de objetos, para construir un sistema que detecte las principales enfermedades que afectan a las hojas de diferentes plantas agrícolas.
 
-[![Mira el video](https://github.com/ALaboriano/Plant-disease-leaf-detection/assets/52020337/b28edf87-a0b0-4de4-9680-c0725162fb93)
-)](https://youtu.be/Uh2y80x36rI?si=58Peju2Vhv-ZVR32)
+**Resumen de los resultados obtenidos**
+[Mira el video Detección de enfermedades en hojas de plantas agrícolas](https://youtu.be/Uh2y80x36rI?si=58Peju2Vhv-ZVR32)
+![Mira el video](https://github.com/ALaboriano/Plant-disease-leaf-detection/assets/52020337/b28edf87-a0b0-4de4-9680-c0725162fb93)(https://youtu.be/Uh2y80x36rI?si=58Peju2Vhv-ZVR32)
 
 ## Fuente de datos - Dataset
 
