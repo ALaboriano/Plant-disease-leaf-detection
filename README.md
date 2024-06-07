@@ -82,4 +82,4 @@ Finalmente, el modelo entrenado se pasó sobre un video, construído a partir de
     - https://www.youtube.com/watch?v=q14i9daHwvQ  
     - https://www.youtube.com/watch?v=QsO2LQTZb0w  
 
-El video lo puede ver en [](), y podrá observar que efectivamente el modelo logra identificar las áreas infectadas de las hojas evaluadas.
+Y sobre este video construido se muestra los resultados del video mostrado anteriormente.
